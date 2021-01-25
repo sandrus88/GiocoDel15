@@ -31,15 +31,15 @@ public class GiocoDel15SenzaController extends Frame {
 	}
 
 	private void init() {
-		Panel titolo = new Panel();
-		titolo.setBackground(Color.red);
+		Panel north = new Panel();
+		north.setBackground(Color.red);
 		label = new Label("Metti i numeri in modo crescente");
-		titolo.add(label);
-		add("North", titolo);
+		north.add(label);
+		add("North", north);
 
-		Panel pannelloBottoniGioco = new Panel();
+		Panel center = new Panel();
 		GridLayout layout = new GridLayout(4, 4);
-		pannelloBottoniGioco.setLayout(layout);
+		center.setLayout(layout);
 		bottoni = new Button[16];
 		for (int i = 0; i < 16; i++) {
 			bottoni[i] = new Button();
@@ -50,17 +50,17 @@ public class GiocoDel15SenzaController extends Frame {
 				bottoni[i].setBackground(Color.blue);
 			}
 			bottoni[i].addActionListener(new ButtonActionListener());
-			pannelloBottoniGioco.add(bottoni[i]);
+			center.add(bottoni[i]);
 		}
-		add("Center", pannelloBottoniGioco);
+		add("Center", center);
 
-		Panel pannelloBottoniUscitaENuovaPartita = new Panel();
-		pannelloBottoniUscitaENuovaPartita.setBackground(Color.red);
+		Panel south = new Panel();
+		south.setBackground(Color.red);
 		nuovaPartita = new Button("Nuova Partita");
-		pannelloBottoniUscitaENuovaPartita.add(nuovaPartita);
+		south.add(nuovaPartita);
 		chiudi = new Button("Esci");
-		pannelloBottoniUscitaENuovaPartita.add(chiudi);
-		add("South", pannelloBottoniUscitaENuovaPartita);
+		south.add(chiudi);
+		add("South", south);
 
 		nuovaPartita.addActionListener(new NuovaPartitaListener());
 		chiudi.addActionListener(new ActionListener() {
