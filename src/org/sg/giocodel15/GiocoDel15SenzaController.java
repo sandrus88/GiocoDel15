@@ -72,7 +72,7 @@ public class GiocoDel15SenzaController extends Frame {
 		});
 	}
 
-	void updateButtonLabels() {
+	public void updateButtonLabels() {
 		int indexVuoto = getVuoto();
 		for (int i = 0; i < 16; i++) {
 			bottoni[i].setLabel(numeri[i]);
@@ -84,7 +84,7 @@ public class GiocoDel15SenzaController extends Frame {
 		}
 	}
 
-	void mixNumbers() {
+	public void mixNumbers() {
 		for (int i = 0; i < 100; i++) {
 			Random rd = new Random();
 			int firstIndex = rd.nextInt(16);
@@ -102,7 +102,7 @@ public class GiocoDel15SenzaController extends Frame {
 	 * 
 	 * @return l'indice del bottone vuoto
 	 */
-	int getVuoto() {
+	public int getVuoto() {
 		int indexVuoto = 0;
 		for (int i = 0; i < 16; i++) {
 			if (numeri[i].equals("")) {
@@ -118,7 +118,7 @@ public class GiocoDel15SenzaController extends Frame {
 	 * 
 	 * @param index, indice da scambiare con il valore vuoto
 	 */
-	void scambia(int index) {
+	public void scambia(int index) {
 		for (int i = 0; i < 16; i++) {
 			int valoreVuoto = getVuoto();
 			String temp = numeri[index];
@@ -138,7 +138,7 @@ public class GiocoDel15SenzaController extends Frame {
 	 * @return true se l'indice passato come parametro e' adiacente all'indice del
 	 *         valore vuoto.
 	 */
-	boolean isAdjacent(int index) {
+	public boolean isAdjacent(int index) {
 		int indexVuoto = getVuoto();
 		if (index % 4 == 0) {
 			if (indexVuoto == index - 4 || indexVuoto == index + 1 || indexVuoto == index + 4) {
