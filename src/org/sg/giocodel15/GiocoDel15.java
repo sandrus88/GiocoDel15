@@ -174,6 +174,10 @@ public class GiocoDel15 extends Frame {
 		}
 		return true;
 	}
+	
+	public String[] getNumeri() {
+		return numeri;
+	}
 
 	class ButtonActionListener implements ActionListener {
 		@Override
