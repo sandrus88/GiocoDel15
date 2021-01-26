@@ -1,4 +1,4 @@
-package org.sg.myclasses;
+package org.sg.util;
 
 public class SGUtil {
 	public static void printArray(String[] arr) {
