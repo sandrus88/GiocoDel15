@@ -25,11 +25,11 @@ Il gioco e' suddiviso in due classi principali. La classe GiocoDel15Controller r
  
 In sintesi l'implementazione del gioco e' la seguente:</br>
 Ad ogni click del bottone verifico:</br>
-- 1. Se e' adiacente al bottone vuoto.</br>
-- &nbsp; 1.A scambia il bottone cliccato con quello vuoto.</br>
-- 2. verifico se la combinazione dei numeri e' quella finale</br>
-- &nbsp; 2.A a questo punto il gioco si blocca e fa vedere la scritta "HAI VINTO!!!"</br>
-- 3. Per ricominciare bisogna cliccare su NuovaPartita.</br>
+1. Se e' adiacente al bottone vuoto.</br>
+	1. scambia il bottone cliccato con quello vuoto.</br>
+2. verifico se la combinazione dei numeri e' quella finale</br>
+	1. a questo punto il gioco si blocca e fa vedere la scritta "HAI VINTO!!!"</br>
+3. Per ricominciare bisogna cliccare su NuovaPartita.</br>
 
 ## Avvio del gioco
 Per poter lanciare il gioco scaricare il `jar` nella cartella [GiocoDel15/dist/](./dist) e lanciarlo facendo il doppio click.
