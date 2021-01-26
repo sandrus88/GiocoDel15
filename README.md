@@ -1,7 +1,8 @@
+
 # GiocoDelQuindici
 
 ##Abstract
-Il gioco del quindici è un rompicapo classico creato nel 1874 da Noyes Palmer Chapman, postino in servizio a Canastota, e popolarizzato nel 1880 da Samuel Loyd. Il gioco consiste di una tabellina di forma quadrata, solitamente di plastica, divisa in quattro righe e quattro colonne (quindi 16 posizioni), su cui sono posizionate 15 tessere quadrate, numerate progressivamente a partire da 1. Le tessere possono scorrere in orizzontale o verticale, ma il loro spostamento è ovviamente limitato dall'esistenza di un singolo spazio vuoto. Lo scopo del gioco è riordinare le tessere dopo averle "mescolate" in modo casuale (la posizione da raggiungere è quella con il numero 1 in alto a sinistra e gli altri numeri a seguire da sinistra a destra e dall'alto in basso, fino al 15 seguito dalla casella vuota).
+Il gioco del quindici ï¿½ un rompicapo classico creato nel 1874 da Noyes Palmer Chapman, postino in servizio a Canastota, e popolarizzato nel 1880 da Samuel Loyd. Il gioco consiste di una tabellina di forma quadrata, solitamente di plastica, divisa in quattro righe e quattro colonne (quindi 16 posizioni), su cui sono posizionate 15 tessere quadrate, numerate progressivamente a partire da 1. Le tessere possono scorrere in orizzontale o verticale, ma il loro spostamento ï¿½ ovviamente limitato dall'esistenza di un singolo spazio vuoto. Lo scopo del gioco ï¿½ riordinare le tessere dopo averle "mescolate" in modo casuale (la posizione da raggiungere ï¿½ quella con il numero 1 in alto a sinistra e gli altri numeri a seguire da sinistra a destra e dall'alto in basso, fino al 15 seguito dalla casella vuota).
 
 * [Gioco del Quindici risolto](doc/gioco-del-quindici-completo.jpg)
 
@@ -28,3 +29,4 @@ Ordinare i bottoni numerati dal numero 1 al numero 15, partendo dalla posizione 
 Il gioco si avvia eseguendo il file gioco.jar presente nella cartella dist.
 
 * [Avvio del gioco](dist/giocodel15.jar)
+

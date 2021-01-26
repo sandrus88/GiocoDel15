@@ -54,7 +54,7 @@ public class GiocoDel15 extends Frame {
 		chiudi = new Button("Esci");
 		pannelloBottoniUscitaENuovaPartita.add(chiudi);
 		add("South", pannelloBottoniUscitaENuovaPartita);
-
+    
 		nuovaPartita.addActionListener(new NuovaPartitaListener());
 		chiudi.addActionListener(new ActionListener() {
 			@Override
