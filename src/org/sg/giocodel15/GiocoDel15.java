@@ -15,6 +15,7 @@ public class GiocoDel15 extends Frame {
 	private Button chiudi;
 	private Button nuovaPartita;
 	private Button bottoni[];
+	
 	private GiocoDel15Controller controller = new GiocoDel15Controller();
 
 	public GiocoDel15() {
