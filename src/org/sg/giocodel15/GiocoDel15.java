@@ -12,7 +12,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Random;
 
-public class GiocoDel15SenzaController extends Frame {
+public class GiocoDel15 extends Frame {
 
 	private Label label;
 	private Button chiudi;
@@ -21,11 +21,11 @@ public class GiocoDel15SenzaController extends Frame {
 	private String numeri[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "" };
 	private boolean isFinish;
 
-	public GiocoDel15SenzaController() {
+	public GiocoDel15() {
 		init();
 	}
 
-	public GiocoDel15SenzaController(String[] a) {
+	public GiocoDel15(String[] a) {
 		numeri = a;
 		init();
 	}
@@ -224,7 +224,7 @@ public class GiocoDel15SenzaController extends Frame {
 	}
 
 	public static void main(String[] args) {
-		Frame f = new GiocoDel15SenzaController();
+		Frame f = new GiocoDel15();
 ////		String arr[] = { "7", "5", "11", "3", "9", "", "10", "2", "9", "10", "11", "12", "13", "14", "15", "" };
 ////		Frame f = new GiocoDel15(arr);
 		f.setTitle("Gioco del Quindici");
