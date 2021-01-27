@@ -38,3 +38,6 @@ Per poter lanciare il gioco scaricare il `jar` nella cartella [GiocoDel15/dist/]
 
 
 * [Gioco del Quindici](https://it.wikipedia.org/wiki/Gioco_del_quindici) - Descrizione del gioco in Wikipedia
+* [Class Diagram uml](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/) - Come creare un Class Diagram con uml
+* [Operatore %](https://www.baeldung.com/modulo-java) - Operatore modulo e suoi utilizzi
+* [Incapsulamento](https://www.w3schools.com/java/java_encapsulation.asp#:~:text=The%20get%20method%20returns%20the%20value%20of%20the%20variable%20name,refer%20to%20the%20current%20object.) - Concetto di incapsulamento 
